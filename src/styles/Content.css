@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Indie+Flower&display=swap");
+
+@keyframes beat {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+.ContentContainer {
+  width: 100%;
+  /* background: rgb(218, 255, 219); */
+  overflow: hidden;
+}
+.ContentWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+}
+.imageBg {
+  position: absolute;
+  background: url("../images/ptk.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+  filter: blur(5px);
+}
+
+.imageBg2 {
+  position: absolute;
+  background: url("../images/horse.jpeg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+  filter: blur(5px);
+  z-index: 0;
+}
+.imageBg3 {
+  position: absolute;
+  background: url("../images/coffee.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  filter: blur(5px);
+  z-index: 0;
+}
+
+.ContentWrapper2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+}
+.ContentWrapper3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+}
+.ContentTitle {
+  align-items: center;
+  text-align: center;
+  font-size: 60px;
+  position: absolute;
+  top: 80%;
+  z-index: 6;
+  animation: beat 2s infinite;
+  /* animation-iteration-count: 5; */
+  left: 20%;
+  width: 50%;
+}
+.imageBox {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  height: 80%;
+  background: url("../images/ptk.jpg") no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0px 3px 119px -4px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 3px 119px -4px rgba(255, 255, 255, 1);
+  box-shadow: 0px 3px 119px -4px rgba(255, 255, 255, 1);
+}
+.imageBox2 {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  height: 80%;
+  z-index: 1;
+  background: url("../images/horse.jpeg") no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0px 3px 16px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 16px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 16px -4px rgba(0, 0, 0, 0.75);
+}
+.imageBox3 {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  height: 80%;
+  z-index: 1;
+  width: 100%;
+  background: url("../images/coffee.jpg") no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0px 3px 16px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 16px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 16px -4px rgba(0, 0, 0, 0.75);
+}
+.ContentBox {
+  width: 100%;
+  padding: 20px;
+}
+.ContentBox2 {
+  width: 100%;
+  padding: 20px;
+}
+.ContentBox3 {
+  width: 100%;
+  padding: 20px;
+}
+
+.partial2 {
+  width: 10%;
+  height: 100%;
+}
+.partial3 {
+  width: 25%;
+  height: 100%;
+}
+.ContentBox p {
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+  font-family: "Chewy", cursive;
+  padding: 30px;
+  vertical-align: middle;
+  line-height: 60px;
+  background: rgb(242, 24, 16);
+}
+.ContentBox p span {
+  font-size: 65px;
+}
+
+.ContentBox2 p {
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  font-size: 36px;
+  color: white;
+  font-family: "Chewy", cursive;
+  padding: 30px;
+  vertical-align: middle;
+  line-height: 60px;
+  background: rgba(65, 105, 225, 0.9);
+}
+.ContentBox2 p span {
+  font-size: 65px;
+}
+
+.ContentBox3 p {
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  font-size: 36px;
+  color: white;
+  font-family: "Chewy", cursive;
+  padding: 30px;
+  vertical-align: middle;
+  line-height: 60px;
+  background: rgba(41, 29, 3, 0.8);
+}
+.ContentBox3 p span {
+  font-size: 65px;
+}
+
+.separator {
+  height: 20px;
+  z-index: 5;
+}
+
+@media (max-width: 1440px) {
+  .ContentTitle {
+    font-size: 40px;
+    left: 25%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .ContentTitle {
+    font-size: 35px;
+  }
+  .ContentBox p {
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .ContentBox p span {
+    font-size: 36px;
+  }
+
+  .ContentBox2 p {
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .ContentBox2 p span {
+    font-size: 36px;
+  }
+
+  .ContentBox3 p {
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .ContentBox3 p span {
+    font-size: 36px;
+  }
+
+  .imageBox {
+    background-position: 20% 50%;
+  }
+  .imageBox2 {
+    background-position: 20% 50%;
+  }
+  .imageBox3 {
+    background-position: 50% 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .ContentWrapper {
+    height: 600px;
+  }
+
+  .ContentWrapper2 {
+    height: 600px;
+  }
+  .ContentWrapper3 {
+    height: 600px;
+  }
+  .imageBox2 {
+    background-position: 20% 50%;
+  }
+  .imageBox3 {
+    background-position: 50% 50%;
+  }
+  .imageBg {
+    height: 550px;
+  }
+  .imageBg2 {
+    height: 550px;
+  }
+  .imageBg3 {
+    height: 550px;
+  }
+  .separator {
+    height: 0;
+  }
+}
+
+@media (max-width: 568px) {
+  .ContentTitle {
+    font-size: 25px;
+  }
+
+  .ContentBox p {
+    font-size: 12px;
+    padding: 10px;
+    line-height: 22px;
+  }
+  .ContentBox p span {
+    font-size: 22px;
+  }
+
+  .ContentBox2 p {
+    font-size: 12px;
+    padding: 10px;
+    line-height: 22px;
+  }
+  .ContentBox2 p span {
+    font-size: 22px;
+  }
+
+  .ContentBox3 p {
+    font-size: 12px;
+    padding: 10px;
+    line-height: 22px;
+  }
+  .ContentBox3 p span {
+    font-size: 22px;
+  }
+
+  .ContentWrapper {
+    height: 400px;
+  }
+  .ContentWrapper2 {
+    height: 400px;
+  }
+  .ContentWrapper3 {
+    height: 400px;
+  }
+  .imageBg {
+    height: 380px;
+  }
+  .imageBg2 {
+    height: 380px;
+  }
+  .imageBg3 {
+    height: 380px;
+  }
+  .imageBox {
+    top: 5%;
+  }
+  .imageBox2 {
+    top: 5%;
+  }
+  .imageBox3 {
+    top: 5%;
+  }
+  .separator {
+    height: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .ContentTitle {
+    font-size: 22px;
+  }
+}

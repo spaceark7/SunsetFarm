@@ -1,0 +1,37 @@
+.ContactWrapper {
+  width: 100%;
+  height: 80vh;
+  background: #2ab07b;
+  color: #ff5722;
+  font-family: "chewy", cursive;
+  overflow: hidden;
+}
+.ContactWrapper h2 {
+  text-align: center;
+  font-size: 35px;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 20px;
+}
+.map {
+  width: 100%;
+}
+.map a {
+  position: relative;
+  width: 300px;
+  font-size: 22px;
+  text-decoration: none;
+  background: orangered;
+  padding: 20px 15px;
+  top: 5%;
+  left: 30%;
+  color: white;
+}
+
+.contactList {
+  width: 100%;
+  height: 100%;
+}
