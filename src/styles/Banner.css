@@ -16,10 +16,16 @@
   margin: 0;
   padding: 0;
 }
+.animate__bounceIn {
+  --animate-duration: 3s;
+}
 
 .logo {
   position: absolute;
   z-index: 1;
+}
+.logo img:hover {
+  cursor: pointer;
 }
 
 .banner {
@@ -99,6 +105,8 @@
     rgb(255, 87, 34) 8.64153px -2.51474px 0px,
     rgb(255, 87, 34) 8.86709px -1.54104px 0px,
     rgb(255, 87, 34) 8.98328px -0.548328px 0px;
+  --animation-delay: 2s;
+  --animate-duration: 3s;
 }
 
 .clouds {

@@ -138,10 +138,25 @@
     rgb(255, 87, 34) 8.86709px -1.54104px 0px,
     rgb(255, 87, 34) 8.98328px -0.548328px 0px;
   z-index: 6;
-  animation: beat 2s infinite;
+
   /* animation-iteration-count: 5; */
   left: 20%;
   width: 50%;
+}
+.ContentTitle:hover {
+  cursor: pointer;
+}
+.combo {
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  --animation-delay: 6s;
+  --animate-duration: 6s;
+}
+.animate__pulse {
+  --animation-delay: 2s;
+  --animate-duration: 1s;
 }
 .imageBox {
   position: relative;

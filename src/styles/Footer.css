@@ -1,53 +1,102 @@
 .footer-container {
-    height: 150px;
-    width: 100%;
-    background: rgb(14, 58, 41) ;
+  height: 100%;
+  width: 100%;
+  background: rgb(14, 58, 41);
 }
 .container {
-   width: 100% !important;
-   max-width: 100% !important;
-   overflow: hidden;
+  width: 100% !important;
+  max-width: 100% !important;
 }
 
 .col-md-4 {
-    height: 100%;
-    padding: 20px 30px;
+  height: 100%;
+  padding: 20px 30px;
 }
 .col-md-4 h2 {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 22px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
 }
 .col-md-4 p {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
 }
 .Tentang h2 {
-    text-align: center;
+  text-align: center;
 }
 .Tentang p {
-    text-align: center;
+  text-align: center;
 }
 .Kontak h2 {
-    text-align: center;
+  text-align: center;
 }
 .Kontak p {
-    text-align: center;
+  text-align: center;
 }
 .copyright {
-    background: rgb(4, 19, 13) ;
-    padding: 20px;
+  background: rgb(9, 38, 27);
+  padding: 20px;
 }
 .copyright h2 {
-    text-align: center;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 24px;
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
 }
 .copyright span {
+  color: tomato;
+  cursor: pointer;
+}
+.copyright span:hover {
+  font-weight: 700;
+  color: dodgerblue;
+}
+
+@media (max-width: 568px) {
+  .col-md-4 h2 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .col-md-4 p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .Alamat h2,
+  p {
+    text-align: center;
+  }
+  .Tentang h2 {
+    text-align: center;
+  }
+  .Tentang p {
+    text-align: center;
+  }
+  .Kontak h2 {
+    text-align: center;
+  }
+  .Kontak p {
+    text-align: center;
+  }
+  .copyright {
+    background: rgb(9, 38, 27);
+    padding: 20px;
+  }
+  .copyright h2 {
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .copyright span {
     color: tomato;
+  }
 }

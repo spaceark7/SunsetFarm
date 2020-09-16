@@ -2,6 +2,9 @@ import React from "react";
 import { cloud1, cloud2, cloud3, cloud4, cloud5 } from "../images/helper";
 import logo from "../images/logo.png";
 import "../styles/Banner.css";
+import { Link } from "react-scroll";
+import "animate.css/animate.min.css";
+
 const Banner = () => {
   const s1 = { "--i": 1 };
   const s2 = { "--i": 2 };
@@ -15,11 +18,25 @@ const Banner = () => {
   const s10 = { "--i": 10 };
   return (
     <div className="banner">
-      <h2 className="text">Selamat Datang Di</h2>
+      <h2 className="text animate__animated animate__bounceInDown">
+        Selamat Datang Di
+      </h2>
 
-      <div className="logo">
-        <img src={logo} alt="" />
-      </div>
+      <Link
+        activeClass="active"
+        to="section1"
+        spy={true}
+        smooth={true}
+        duration={1000}
+      >
+        <div className="logo ">
+          <img
+            className="animate__animated animate__bounceIn"
+            src={logo}
+            alt=""
+          />
+        </div>
+      </Link>
       <div className="clouds">
         <img style={s1} src={cloud1} alt="" />
         <img style={s2} src={cloud2} alt="" />
