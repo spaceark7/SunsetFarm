@@ -413,4 +413,19 @@
   .ContentTitle {
     font-size: 22px;
   }
+  .ContentBox p {
+    font-size: 10px;
+    padding: 10px;
+    line-height: 16px;
+  }
+  .ContentBox2 p {
+    font-size: 10px;
+    padding: 10px;
+    line-height: 16px;
+  }
+  .ContentBox3 p {
+    font-size: 10px;
+    padding: 10px;
+    line-height: 16px;
+  }
 }
