@@ -16,12 +16,16 @@ h2 {
   width: 100% !important;
   max-width: 100% !important;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 .wrow {
   position: relative;
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 .ContactWrapper .heading {
   text-align: center;
@@ -95,6 +99,8 @@ h2 {
 
 .map {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 iframe {
   height: 80%;
@@ -107,7 +113,7 @@ iframe {
   background: orangered;
   padding: 20px 15px;
   top: 5%;
-  left: 30%;
+  left: 25%;
   color: white;
 }
 
@@ -116,6 +122,8 @@ iframe {
   width: 100%;
   height: 100%;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .logoSM {
@@ -123,7 +131,7 @@ iframe {
   width: 200px;
   color: white;
   opacity: 0.7;
-  left: 25%;
+  left: 30%;
   cursor: pointer;
 }
 .logoSM:hover {
@@ -143,10 +151,21 @@ iframe {
 
 .follow {
   text-align: center;
-  background: orangered;
+  text-decoration: underline;
   color: azure;
 }
-
+@media (max-width: 1440px) {
+  .logoSM {
+    left: 35%;
+    cursor: pointer;
+  }
+}
+@media (max-width: 1024px) {
+  .logoSM {
+    left: 30%;
+    cursor: pointer;
+  }
+}
 @media (max-width: 768px) {
   .follow {
     font-size: 40px;
@@ -181,12 +200,18 @@ iframe {
     padding: 30px;
     margin-top: 80px;
   }
+  .logoSM {
+    left: 30%;
+  }
+  .map a {
+    left: 30%;
+  }
 }
 
 @media (max-width: 568px) {
   .follow {
     font-size: 40px;
-    background: #ff5722;
+
     text-decoration: underline;
   }
   .sosmed {
@@ -196,7 +221,7 @@ iframe {
     margin-top: 80px;
   }
   .logoSM {
-    left: 5%;
+    left: 12%;
   }
   .map a {
     left: 15%;
@@ -211,16 +236,30 @@ iframe {
 
 @media (max-width: 375px) {
   .logoSM {
-    left: 0%;
+    left: 15%;
     width: 150px;
   }
 }
 @media (max-width: 340px) {
   .logoSM {
-    left: -20%;
+    left: 10%;
+  }
+  .map a {
+    left: 15%;
+    font-size: 16px;
   }
   .follow {
     font-size: 28px;
     background: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .logoSM {
+    left: 5%;
+  }
+  .map a {
+    left: 20%;
+    font-size: 12px;
   }
 }

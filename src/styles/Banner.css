@@ -22,7 +22,14 @@
 
 .logo {
   position: absolute;
-  z-index: 1;
+  width: 100%;
+  left: 25%;
+  top: 20%;
+  z-index: 2;
+}
+
+.logo img {
+  width: 50%;
 }
 .logo img:hover {
   cursor: pointer;

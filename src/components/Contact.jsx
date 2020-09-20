@@ -20,6 +20,7 @@ const Contact = () => {
               allowFullScreen={true}
               aria-hidden="false"
               tabIndex="0"
+              title="Map View"
             ></iframe>
             <a
               href="https://maps.google.com/maps?ll=-6.712757,107.021729&z=17&t=h&hl=en&gl=ID&mapclient=embed&daddr=Taman%20Wisata%20Petik%20Buah%20Dan%20Sayuran%20SunSet%20Farm%20Jl.%20Nasional%2011%20No.45%20Palasari%20Kec.%20Cipanas%2C%20Kabupaten%20Cianjur%2C%20Jawa%20Barat%2043253@-6.7127572,107.0217286"
@@ -35,6 +36,7 @@ const Contact = () => {
                 <li>
                   {" "}
                   <a
+                    rel="noopener noreferrer"
                     target="_blank"
                     href="https://www.facebook.com/SunSetFarmPuncak/"
                   >
@@ -43,6 +45,7 @@ const Contact = () => {
                 </li>
                 <li>
                   <a
+                    rel="noopener noreferrer"
                     target="_blank"
                     href="https://www.instagram.com/sunsetfarmpuncak/"
                   >
@@ -50,7 +53,11 @@ const Contact = () => {
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="https://wa.me/6285722338109">
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://wa.me/6285722338109"
+                  >
                     <img className="logoSM" src={wa} alt="" />
                   </a>
                 </li>

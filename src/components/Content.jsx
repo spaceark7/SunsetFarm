@@ -42,10 +42,10 @@ const Content = () => {
         >
           <p>
             Wisata taman petik buah dan sayuran di
-            <span>Puncak</span>. Destinasi wisata yang tak kalah menarik dan
+            <span> Puncak</span>. Destinasi wisata yang tak kalah menarik dan
             seru untuk dikunjungi bersama
             <span> keluarga </span> ataupun
-            <span> rombongan </span>. Tidak hanya itu, tersedia juga fasilitas{" "}
+            <span> rombongan</span>. Tidak hanya itu, tersedia juga fasilitas{" "}
             <span> Horse Riding, </span>
             <span> Coffee Shop </span> dan Aneka Kuliner yang enak!
           </p>

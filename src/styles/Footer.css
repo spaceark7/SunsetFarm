@@ -56,6 +56,12 @@
   color: dodgerblue;
 }
 
+@media (max-width: 767px) {
+  .Alamat h2,
+  p {
+    text-align: center;
+  }
+}
 @media (max-width: 568px) {
   .col-md-4 h2 {
     color: white;

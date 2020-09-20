@@ -24,7 +24,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright">
-        <a target="_blank" href="https://spaceark7.github.io/portofolio/">
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://spaceark7.github.io/portofolio/"
+        >
           <h2>
             Designed & Created By{" "}
             <span className="reveal">Explore Creative Team</span>
