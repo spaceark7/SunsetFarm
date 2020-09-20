@@ -26,10 +26,8 @@ h2 {
   height: 100%;
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-=======
+
   overflow: hidden;
->>>>>>> 82dad71e7c731d3672ad29bb690afcf8e878cca4
 }
 .ContactWrapper .heading {
   text-align: center;
@@ -251,15 +249,13 @@ iframe {
 }
 @media (max-width: 340px) {
   .logoSM {
-<<<<<<< HEAD
     left: 10%;
   }
   .map a {
     left: 15%;
     font-size: 16px;
-=======
+
     left: -0%;
->>>>>>> 82dad71e7c731d3672ad29bb690afcf8e878cca4
   }
   .follow {
     font-size: 28px;
