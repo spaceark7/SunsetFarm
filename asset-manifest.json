@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/SunsetFarm/static/css/main.eb670368.chunk.css",
-    "main.js": "/SunsetFarm/static/js/main.736f4c11.chunk.js",
-    "main.js.map": "/SunsetFarm/static/js/main.736f4c11.chunk.js.map",
+    "main.css": "/SunsetFarm/static/css/main.d27d91f6.chunk.css",
+    "main.js": "/SunsetFarm/static/js/main.65eafeef.chunk.js",
+    "main.js.map": "/SunsetFarm/static/js/main.65eafeef.chunk.js.map",
     "runtime-main.js": "/SunsetFarm/static/js/runtime-main.30c27d60.js",
     "runtime-main.js.map": "/SunsetFarm/static/js/runtime-main.30c27d60.js.map",
     "static/css/2.36bc8797.chunk.css": "/SunsetFarm/static/css/2.36bc8797.chunk.css",
     "static/js/2.03f2313f.chunk.js": "/SunsetFarm/static/js/2.03f2313f.chunk.js",
     "static/js/2.03f2313f.chunk.js.map": "/SunsetFarm/static/js/2.03f2313f.chunk.js.map",
     "index.html": "/SunsetFarm/index.html",
-    "precache-manifest.003b12d969694c7c30b27f170e4ca48a.js": "/SunsetFarm/precache-manifest.003b12d969694c7c30b27f170e4ca48a.js",
+    "precache-manifest.2f730b3b2e269faf7b4972a507832474.js": "/SunsetFarm/precache-manifest.2f730b3b2e269faf7b4972a507832474.js",
     "service-worker.js": "/SunsetFarm/service-worker.js",
     "static/css/2.36bc8797.chunk.css.map": "/SunsetFarm/static/css/2.36bc8797.chunk.css.map",
-    "static/css/main.eb670368.chunk.css.map": "/SunsetFarm/static/css/main.eb670368.chunk.css.map",
+    "static/css/main.d27d91f6.chunk.css.map": "/SunsetFarm/static/css/main.d27d91f6.chunk.css.map",
     "static/js/2.03f2313f.chunk.js.LICENSE.txt": "/SunsetFarm/static/js/2.03f2313f.chunk.js.LICENSE.txt",
     "static/media/Banner.css": "/SunsetFarm/static/media/bg1.2792c207.jpg",
     "static/media/cloud1.png": "/SunsetFarm/static/media/cloud1.2167fed1.png",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.30c27d60.js",
     "static/css/2.36bc8797.chunk.css",
     "static/js/2.03f2313f.chunk.js",
-    "static/css/main.eb670368.chunk.css",
-    "static/js/main.736f4c11.chunk.js"
+    "static/css/main.d27d91f6.chunk.css",
+    "static/js/main.65eafeef.chunk.js"
   ]
 }
